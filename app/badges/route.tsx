@@ -71,8 +71,8 @@ export async function GET(request: Request) {
     fontFamily: "gabaritobold",
   }}
 >
-  <div style={{ fontSize: "115px", color: "#EA0B86", maxWidth: `${maxWidthcalc}px`} }>{year==0 ? "You've accomplished a lot" : `You accomplished a lot in ${year}`}</div>
-  <div style={{ fontSize: "73px", color: "#EA0B86" }}>Let's look at some of your achievements</div>
+  <div style={{ fontSize: "115px", color: "#EA0B86", maxWidth: `${maxWidthcalc}px`} }>{year==0 ? "You&apos;ve accomplished a lot" : `You accomplished a lot in ${year}`}</div>
+  <div style={{ fontSize: "73px", color: "#EA0B86" }}>Let&apos;s look at some of your achievements</div>
   <div
     style={{
       display: "flex",

@@ -153,7 +153,7 @@ export async function GET(request: Request) {
           >
             {year == 0
               ? "You've been on a journey"
-              : `In ${year} you went on a joruney`}
+              : `In ${year} you went on a journey`}
           </div>
 
           <div
@@ -168,7 +168,7 @@ export async function GET(request: Request) {
               maxWidth: `${maxWidthcalc}px`,
             }}
           >
-            <span>You've traveled a total of</span>
+            <span>You&apos;ve traveled a total of</span>
 
             <span style={{ color: "#E4E643", display: "flex" }}>
               {`${totaldist}`}
@@ -189,7 +189,7 @@ export async function GET(request: Request) {
               maxWidth: `${maxWidthcalc}px`,
             }}
           >
-            <span>That's</span>
+            <span>That&apos;s</span>
             <span style={{ opacity: 0 }}>l</span>
             <span style={{ color: "#E4E643" }}>
               {getDistanceComparison(Number(totaldist))}
